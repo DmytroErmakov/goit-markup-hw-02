@@ -1,7 +1,82 @@
-:root {
+/* :root {
+
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.navy {
+background-color: #FFFFFF;
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
+.logo {
+color: #4D5AE5;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+display: flex;
+align-items: center;
+margin-left: 200px;
+margin-top: 24px;
 
 }
 
-body {
+.navy-list {
+     list-style:none;
+}
+.navy-item {
+margin-top: 24px;
+    margin-left: 348px;
+display: block; 
+        float: left; 
+}
 
+.navy-about {
+    color: #434455;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+.button-item {
+    color: #2E2F42;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+.button-item:hover {
+    color: #434455;
+}
+
+.button-item:focus {
+
+}
+
+.button-item:active {
+    color: #4D5AE5;
+    
 }
