@@ -1,26 +1,29 @@
-/* :root {
+:root {
+    --brand-color: #E5E5E5;
+    color: #2E2F42;
 
-} */
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #E5E5E5;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+    /* primary color text #2E2F42;
+    secondary color text #434455;
+    white #ffffff;
+    accent #4D5AE5; 
+    color fogo futer #F4F4FD;
+    color text footer #E7E9FC;
+    background color team #F4F4FD;
+   */
+       
 }
 
-.navy {
-background-color: #FFFFFF;
-position: absolute;
-width: 1440px;
-height: 72px;
-left: 0px;
-top: 0px;
+ul {
+    list-style: none;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 .logo {
 color: #4D5AE5;
@@ -31,21 +34,20 @@ font-size: 18px;
 line-height: 24px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-display: flex;
-align-items: center;
-margin-left: 200px;
-margin-top: 24px;
-
 }
+.logo-type {
+    color: #2E2F42;
+}
+/* site nav */
+
+
 
 .navy-list {
      list-style:none;
 }
-.navy-item {
-margin-top: 24px;
-    margin-left: 348px;
-display: block; 
-        float: left; 
+
+.navy-item .auth-item {
+  color: #2E2F42;
 }
 
 .navy-about {
@@ -57,6 +59,15 @@ font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 }
+.navy {
+background-color: #FFFFFF;
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+}
+
 
 .button-item {
     color: #2E2F42;
