@@ -1,6 +1,6 @@
 :root {
-    --brand-color: #E5E5E5;
-    color: #2E2F42;
+    font-family: 'Roboto';
+   
 
 }
 
@@ -15,6 +15,145 @@ body {
    */
        
 }
+
+/* .header {
+} */
+.container {
+    width: 1440;
+    margin: 0 auto;
+}
+
+/* header    width: 1128px;
+    margin: 0 auto;*/ 
+
+.header {
+    background-color: #FFFFFF;
+}
+
+.header-container {
+   display: flex;
+   align-items: center;
+} 
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+    margin-left: 156px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.header-logo-text {
+      font-weight: 800;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+
+}
+.header-list {
+    margin-left: 77px;
+    gap: 40px;
+    display: flex;
+}
+.header-list-item {
+   
+}
+.header-item-link {
+    display: block;
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+.header-auth {
+    margin-left: 331px;
+    gap: 40px;
+    display:flex
+        
+}
+.header-auth-item {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #434455;
+
+    
+}
+.header-auth-item-link {
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ul {
     list-style: none;

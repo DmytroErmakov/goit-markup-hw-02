@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Studio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+    
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo">web<span class="logo-type">studio</span></a>
-        <ul class="site-nav">
-          <li class="navy-list"><a href="./studio.html" class="navy-item">Studio</a></li>
-          <li class="navy-list"><a href="./portfolio.html" class="navy-item">Portfolio</a></li>
-          <li class="navy-list"><a href="./contacts.html" class="navy-item">Contacts</a></li>
+    <header class="header">
+      <div class="container header-container">
+      <nav class="header-nav">
+        <a href="./index.html" class="header-logo">web<span class="header-logo-text">studio</span></a>
+        <ul class="header-list">
+          <li class="header-list-item"><a href="./studio.html" class="header-item-link">Studio</a></li>
+          <li class="header-list-item"><a href="./portfolio.html" class="header-item-link">Portfolio</a></li>
+          <li class="header-list-item"><a href="./contacts.html" class="header-item-link">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li class="auth-list"><a href="mailto:info@devstudio.com" class="auth-item">info@devstudio.com</a></li>
-        <li class="auth-list"><a href="tel:+110001111111" class="auth-item">+11 (000) 111-11-11</a></li>
+      <ul class="header-auth">
+        <li class="header-auth-item"><a href="mailto:info@devstudio.com" class="header-auth-item-link">info@devstudio.com</a></li>
+        <li class="header-auth-item"><a href="tel:+110001111111" class="header-auth-item-link">+11 (000) 111-11-11</a></li>
       </ul>
+    </div>
     </header>
     <main>
       <section>
