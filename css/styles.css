@@ -1,5 +1,12 @@
 :root {
     font-family: 'Roboto';
+    --first-background-color: ;
+    --second-background-color: ;
+    --main-color: ;
+    --seconary-color: ;
+    --third-color: ;
+    --fouth-color: ;
+    --fifth-color: ;
    
 
 }
@@ -126,8 +133,7 @@ color: #2E2F42;
         margin-top: 48px;
         margin-bottom: 192px;
         margin-left: 635px;
-        /* нужно центрировать по горизонтали - не получается  */
-
+        text-align: center;
         font-weight: 600;
         font-size: 16px;
         line-height: 19px;
@@ -136,6 +142,7 @@ color: #2E2F42;
         color: #FFFFFF;
     background-color: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-color: #4D5AE5;
         border-radius: 4px;
 }
 .direction {
@@ -293,8 +300,63 @@ color: #F4F4FD;
         display: flex;
     color: #E7E9FC;
 }
+/* filter */
+
+.filter {}
+
+.filter-title, .library-title {
+    display: none;
+}
+
+.filter-list {
+    margin-left: 427px;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    display: flex;
+    gap: 24px;   
+}
+
+.filter-list-item {}
+
+.filter-list-item-btn {
+        background: #F4F4FD;
+        border: 1px solid #E7E9FC;
+        border-radius: 4px;
+}
+
+/* library */
+
+.library {}
 
 
+
+.library-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.library-item {}
+
+.library-item-link {
+    
+}
+
+.library-item-text {
+    padding-left: 32px;
+    padding-top: 40px;
+    width: 296px;
+}
+
+.library-item-type {
+    margin-left: 16px;
+}
+
+.library-item-category {
+    margin-left: 16px;
+}
+
+.portfolio-item {}
 
 
 
