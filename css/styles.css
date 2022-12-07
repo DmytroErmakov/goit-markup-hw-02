@@ -11,6 +11,12 @@
 
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     /* primary color text #2E2F42;
     secondary color text #434455;
@@ -59,7 +65,7 @@ body {
     margin-left: 156px;
     font-family: 'Raleway';
 font-style: normal;
-font-weight: 800;
+font-weight: 700;
 font-size: 18px;
 line-height: 21px;
 display: flex;
