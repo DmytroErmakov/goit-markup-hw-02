@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link rel="stylesheet" https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <title>Web Studio</title>
     <link rel="stylesheet" href="./css/reset.css">
@@ -20,7 +18,7 @@
             <nav class="header-nav">
                 <a href="./index.html" class="header-logo">web<span class="header-logo-text">studio</span></a>
                 <ul class="header-list">
-                    <li class="header-list-item"><a href="./studio.html" class="header-item-link">Studio</a></li>
+                    <li class="header-list-item"><a href="./index.html" class="header-item-link">Studio</a></li>
                     <li class="header-list-item"><a href="./portfolio.html" class="header-item-link">Portfolio</a></li>
                     <li class="header-list-item"><a href="./contacts.html" class="header-item-link">Contacts</a></li>
                 </ul>
@@ -35,89 +33,104 @@
     </header>
     <main>
         <section class="filter">
+            <div class="secondary-container">
             <h1 class="filter-title">Portfolio filter</h1>
             <ul class="filter-list">
-                <li class="filter-list-item"><button type="button" name="button" style="width: 70px; height: 50px;" class="filter-list-item-btn">All</button></li>
-                <li class="filter-list-item"><button type="button" name="button" style="width: 120px; height: 50px;" class="filter-list-item-btn">Web Site</button></li>
-                <li class="filter-list-item"><button type="button" name="button" style="width: 80px; height: 50px;" class="filter-list-item-btn">App</button></li>
-                <li class="filter-list-item"><button type="button" name="button" style="width: 100px; height: 50px;" class="filter-list-item-btn">Design</button></li>
-                <li class="filter-list-item"><button type="button" name="button" style="width: 130px; height: 50px;" class="filter-list-item-btn">Marketing</button></li>
+                <li class="filter-list-item"><button type="button" class="filter-list-item-btn">All</button></li>
+                <li class="filter-list-item"><button type="button" class="filter-list-item-btn">Web Site</button></li>
+                <li class="filter-list-item"><button type="button" class="filter-list-item-btn">App</button></li>
+                <li class="filter-list-item"><button type="button" class="filter-list-item-btn">Design</button></li>
+                <li class="filter-list-item"><button type="button" class="filter-list-item-btn">Marketing</button></li>
             </ul>
-        </section>
-        <section class="library">
-            <div class="secondary-container">
-            <h2 class="library-title">Portfolio library</h2>
             <ul class="library-list">
             <li class="library-item">
                 <a href="">
                     <img src="./image/banking.jpg" alt="bankapp" width="360" height="300" class="library-item-link">
                 <!-- <p class="library-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p> -->
-                <h3 class="library-item-type">Banking App Interface Concept</h3>
+                <div class="library-item-wrap">
+                <h2 class="library-item-type">Banking App Interface Concept</h2>
                 <p class="library-item-category">App</p>
+                </div>
                 </a>
             </li>
-            <li class="portfolio-item">
+            <li class="library-item">
                 <a href="">
-                    <img src="./image/cashless.jpg" alt="cashless text" width="360" height="300" class="library-item-link">
+                    <img src="./image/dz6.jpg" alt="cashless text" width="360" height="300" class="library-item-link">
                 <!-- <p class="library-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p> -->
-                <h3 class="library-item-type">Cashless Payment</h3>
+                <div class="library-item-wrap">
+                <h2 class="library-item-type">Cashless Payment</h2>
                 <p class="library-item-category">Marketing</p>
+                </div>
                 </a>
             </li>
-            <li class="portfolio-item">
+            <li class="library-item">
                 <a href="">
                     <img src="./image/meditaion.jpg" alt="" width="360" height="300" class="library-item-link">
                 <!-- <p class="library-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p> -->
-                <h3 class="library-item-type">Meditaion App</h3>
+                <div class="library-item-wrap">
+                <h2 class="library-item-type">Meditaion App</h2>
                 <p class="library-item-category">App</p>
+                </div>
                 </a>
             </li>
-            <li class="portfolio-item">
+            <li class="library-item">
                 <a href="">
                     <img src="./image/taxi.jpg" alt="taxi" width="360" height="300" class="library-item-link">
                 <!-- <p class="library-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p> -->
-                <h3 class="library-item-type">Taxi Service</h3>
+                <div class="library-item-wrap">
+                <h2 class="library-item-type">Taxi Service</h2>
                 <p class="library-item-category">Marketing</p>
+                </div>
                 </a>
             </li>
-            <li class="portfolio-item">
+            <li class="library-item">
                 <a href="">
                     <img src="./image/screen.jpg" alt="screen smartphone" width="360" height="300" class="library-item-link">
                 <!-- <p class="library-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p> -->
-                <h3 class="library-item-type">Screen Illustrations</h3>
+                <div class="library-item-wrap">
+                <h2 class="library-item-type">Screen Illustrations</h2>
                 <p class="library-item-category">Design</p>
+                </div>
                 </a>
             </li>
-            <li class="portfolio-item">
+            <li class="library-item">
                 <a href="">
                     <img src="./image/online.jpg" alt="young woman" width="360" height="300" class="library-item-link">
                 <!-- <p class="library-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p> -->
-                <h3 class="library-item-type">Online Courses</h3>
+                <div class="library-item-wrap">
+                <h2 class="library-item-type">Online Courses</h2>
                 <p class="library-item-category">Marketing</p>
+                </div>
                 </a>
             </li>
-            <li class="portfolio-item">
+            <li class="library-item">
                 <a href="">
                     <img src="./image/instagram.jpg" alt="instagram pictures" width="360" height="300" class="library-item-link">
                 <!-- <p class="library-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p> -->
-                <h3 class="library-item-type">Instagram Stories Concept</h3>
+                <div class="library-item-wrap">
+                <h2 class="library-item-type">Instagram Stories Concept</h2>
                 <p class="library-item-category">Design</p>
+                </div>
                 </a>
             </li>
-            <li class="portfolio-item">
+            <li class="library-item">
                 <a href="">
                     <img src="./image/online.jpg" alt="" width="360" height="300" class="library-item-link">
                 <!-- <p class="library-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p> -->
-                <h3 class="library-item-type">Organic Food</h3>
+                <div class="library-item-wrap">
+                <h2 class="library-item-type">Organic Food</h2>
                 <p class="library-item-category">Web Site</p>
+                </div>
                 </a>
             </li>
-            <li class="portfolio-item">
+            <li class="libraryo-item">
                 <a href="">
                     <img src="./image/fresh.jpg" alt="cofee" width="360" height="300" class="library-item-link">
                 <!-- <p class="library-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p> -->
-                <h3 class="library-item-type">Fresh Coffee</h3>
+                <div class="library-item-wrap">
+                <h2 class="library-item-type">Fresh Coffee</h2>
                 <p class="library-item-category">Web Site</p>
+                </div>
                 </a>
             </li>
             </ul>
