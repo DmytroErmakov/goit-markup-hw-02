@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--main-color)
+    color: var(--main-color);
 }
 
 /* .header {
@@ -42,10 +42,12 @@ body {
     display: flex;
     align-items: center;
 } 
+
 .header-nav {
     display: flex;
     align-items: center;
 }
+
 .header-logo, .footer-logo {
     margin-left: 156px;
     font-family: 'Raleway';
@@ -58,10 +60,11 @@ body {
     text-transform: uppercase;
     color: var(--third-color);
 }
+
 .header-logo-text {
     color: var(--main-color);
-
 }
+
 .header-list {
     margin-left: 77px;
     gap: 40px;
@@ -84,9 +87,10 @@ body {
     color: var(--seconary-color);
 }
 
-.header-item-link:focus      {
+.header-item-link:focus {
     color: var(--third-color);
 }
+
 .header-auth {
     margin-left: 331px;
     gap: 40px;
@@ -120,8 +124,7 @@ body {
     line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--first-background-color);
-    
+    color: var(--first-background-color);   
 }
 
 .hero-btn {
@@ -181,8 +184,7 @@ body {
     gap: 24px;
 }
 
-.direction-list-item {
-    
+.direction-list-item {   
     width: 264px;
 }
 
@@ -201,8 +203,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--seconary-color);
 }
-
-
 
 .doing-title {
     padding-bottom: 112px;
@@ -228,8 +228,6 @@ body {
     padding-bottom: 120px;
     background-color: var(--second-background-color);
 }
-
-
 
 .team-title {
     padding-top: 72px;
@@ -287,7 +285,6 @@ body {
 
 .footer-logo-text {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -310,6 +307,7 @@ body {
     display: flex;
     color: var(--fouth-color);
 }
+
 /* filter */
 
 .filter {}
@@ -330,6 +328,10 @@ body {
 
 .filter-list-item-btn {
     padding: 12px 24px;
+    font-family: 'Roboto';   
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
     background: var(--second-background-color);
     color: var(--third-color);
     border: 1px solid var(--fouth-color);
@@ -346,13 +348,10 @@ body {
 
 .library {}
 
-
-
 .library-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-
 }
 
 .library-item {}
@@ -403,22 +402,21 @@ a {
 .logo {
 color: var(--third-color);
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 24px;
+line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
 .logo-type {
     color: var(--main-color);
 }
+
 /* site nav */
 
-
-
 .navy-list {
-     list-style:none;
+     list-style: none;
 }
 
 .navy-item .auth-item {
@@ -431,9 +429,10 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
 .navy {
 background-color: var(--first-background-color);
 position: absolute;
@@ -450,7 +449,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
@@ -458,11 +457,8 @@ letter-spacing: 0.02em;
 color: var(--seconary-color);
 }
 
-.button-item:focus {
-
-}
+.button-item:focus {}
 
 .button-item:active {
-color: var(--third-color);
-    
+color: var(--third-color);    
 }
