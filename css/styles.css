@@ -73,7 +73,7 @@ body {
 
 .header-item-link {
     font-family: 'Roboto';
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -119,7 +119,7 @@ body {
     margin: auto;
     width: 492px;
     padding-top: 192px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 56px;
     line-height: 1.1;
     text-align: center;
@@ -133,7 +133,7 @@ body {
     margin-bottom: 192px;
     margin-left: 635px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.04em;   
@@ -150,7 +150,7 @@ body {
     margin-bottom: 192px;
     margin-left: 635px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.04em;
@@ -171,7 +171,7 @@ body {
 
 .direction-title {
     display: none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -189,7 +189,7 @@ body {
 }
 
 .item-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -206,7 +206,7 @@ body {
 
 .doing-title {
     padding-bottom: 112px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -231,7 +231,7 @@ body {
 
 .team-title {
     padding-top: 72px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -256,7 +256,7 @@ body {
 
 .team-list-item-title {
     padding-top: 32px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
@@ -329,7 +329,7 @@ body {
 .filter-list-item-btn {
     padding: 12px 24px;
     font-family: 'Roboto';   
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     background: var(--second-background-color);
@@ -447,7 +447,7 @@ top: 0px;
 color: var(--main-color);
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
